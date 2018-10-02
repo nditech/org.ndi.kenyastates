@@ -1,4 +1,4 @@
-# org.ndi.kenyastates
+# Install Custom States (org.ndi.kenyastates)
 Kenya States (aka Counties)
 
 Install custom states
