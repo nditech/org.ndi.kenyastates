@@ -13,7 +13,7 @@ function kenyastates_stateConfig() {
   $config = array(
     // CAUTION: only use `overwrite` on fresh databases.
     'overwrite' => TRUE,
-    'countryIso' => 'NG',
+    'countryIso' => 'KE',
     'states' => array(
       // 'state name' => 'abbreviation',
       'Baringo' => '1',
