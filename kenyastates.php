@@ -209,5 +209,9 @@ function kenyastates_civicrm_enable() {
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_upgrade
  */
 function kenyastates_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL) {
-  kenyastates_loadProvinces();
+  // TODO: this should use civix to call the upgrader
+  // workaround: disable/re-enable the extension to re-run the DB upgrade.
+  //
+  // Calling kenyastates_loadProvinces() from here was removed because
+  // it gets called whenever we run system.check, or open the Extension Manager.
 }
